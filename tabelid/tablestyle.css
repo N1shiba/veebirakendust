@@ -1,0 +1,171 @@
+table{
+    width: 40%;
+    height: 200px;
+    border: 2pt solid darkgray;
+}
+td{
+    border: 2pt solid darkgray;
+    text-align: center;
+}
+#tabel1 tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(221, 221, 221);
+}
+#tabel1 tr:nth-child(1) td:nth-child(2){
+    background-color: rgb(98, 236, 155);
+}
+#tabel1 tr:nth-child(1) td:nth-child(3){
+    background-color: rgba(123, 98, 236, 0.37);
+}
+#tabel1 tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(253, 255, 108);
+}
+#tabel1 tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(149, 149, 149);
+}
+#tabel1 tr:nth-child(2) td:nth-child(3){
+    background-color: rgb(185, 72, 78);
+}
+#tabel2 tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(98, 236, 155);
+}
+#tabel2 tr:nth-child(1) td:nth-child(2){
+    background-color: rgb(221, 221, 221);
+}
+#tabel2 tr:nth-child(1) td:nth-child(3){
+    background-color: rgb(183, 27, 255);
+}
+#tabel2 tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(253, 255, 108);
+}
+#tabel2 tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(149, 149, 149);
+}
+#tabel3 tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(98, 236, 155);
+}
+#tabel3 tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(253, 255, 108);
+}
+#tabel3 tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(149, 149, 149);
+}
+#tabel3 tr:nth-child(2) td:nth-child(3){
+    background-color: rgb(185, 72, 78);
+}
+#russia{
+    width: 330px;
+    height: 210px;
+    border: 2pt solid black;
+    border-spacing: 0;
+}
+#russia td{
+    border: 0;
+}
+#russia tr:nth-child(1){
+    background-color: white;
+}
+#russia tr:nth-child(2){
+    background-color: blue;
+}
+#russia tr:nth-child(3){
+    background-color: red;
+}
+#finland{
+    width: 330px;
+    height: 210px;
+    border: 2pt solid black;
+    border-spacing: 0;
+}
+#finland td{
+    border: 0;
+}
+#finland tr:nth-child(1) td:nth-child(1),#finland tr:nth-child(3) td:nth-child(1){
+    background-color: white;
+    width: 25%;
+}
+#finland tr:nth-child(2){
+    background-color: rgb(16, 16, 149);
+    height: 30%;
+}
+#finland tr:nth-child(1) td:nth-child(2),#finland tr:nth-child(3) td:nth-child(2){
+    background-color: rgb(16, 16, 149);
+    width: 20%;
+}
+#finland tr:nth-child(1) td:nth-child(3),#finland tr:nth-child(3) td:nth-child(3){
+    background-color: white;
+}
+#my tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(205, 92, 92);
+}
+#my tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(240, 128, 128);
+}
+#my tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(250, 128, 114);
+}
+#my tr:nth-child(3) td:nth-child(1){
+    background-color: rgb(233, 150, 122);
+}
+#my tr:nth-child(3) td:nth-child(2){
+    background-color: rgb(255, 160, 122);
+}
+#ger{
+    width: 330px;
+    height: 210px;
+    border: 2pt solid black;
+    border-spacing: 0;
+}
+#ger td{
+    border: 0;
+}
+#ger tr:nth-child(1){
+    background-color: black;
+}
+#ger tr:nth-child(2){
+    background-color: red;
+}
+#ger tr:nth-child(3){
+    background-color: yellow;
+}
+#eng{
+    width: 330px;
+    height: 210px;
+    border: 2pt solid black;
+    border-spacing: 0;
+}
+#eng td{
+    border: 0;
+}
+#eng tr:nth-child(1) td:nth-child(1),#eng tr:nth-child(3) td:nth-child(1){
+    background-color: white;
+}
+#eng tr:nth-child(2){
+    background-color: red;
+    width: 20%;
+    height: 20%;
+}
+#eng tr:nth-child(1) td:nth-child(2),#eng tr:nth-child(3) td:nth-child(2){
+    background-color: red;
+    width: 15%;
+}
+#eng tr:nth-child(1) td:nth-child(3),#eng tr:nth-child(3) td:nth-child(3){
+    background-color: white;
+}
+#fr{
+    width: 330px;
+    height: 210px;
+    border: 2pt solid black;
+    border-spacing: 0;
+}
+#fr td{
+    border: 0;
+}
+#fr tr:nth-child(1) td:nth-child(1){
+    background-color: blue;
+}
+#fr tr:nth-child(1) td:nth-child(2){
+    background-color: white;
+}
+#fr tr:nth-child(1) td:nth-child(3){
+    background-color: red;
+}
